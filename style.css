@@ -35,3 +35,40 @@
     width: 30px;
     margin-left: 10px;
 }
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    border: 2px solid transparent;
+    transition: 0.3s;
+}
+
+.row:hover {
+    border: 2px solid ;
+    border-image: linear-gradient(45deg, #cb3af0, #3af0cb) 1;
+}
+
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: linear-gradient(135deg , #cb3af0 , #380468);
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border-radius: 40px;
+}
