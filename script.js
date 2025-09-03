@@ -1,0 +1,18 @@
+document.addEventListener('DOMContentLoaded' , () => {
+    const inputBox = document.getElementById('input-box')
+    const input = document.getElementById('input')
+    const listContainer = document.getElementById('list-container')
+    input.addEventListener('submit' , (e) => {
+        e.preventDefault()
+        console.log('hi')
+        if (inputBox.value === '') {
+            alert('You must have to write something!')
+        } else {
+            const li = document.createElement('li')
+            li.innerHTML = inputBox.value
+            listContainer.appendChild(li)
+        }
+    })
+
+    
+})

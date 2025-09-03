@@ -109,3 +109,10 @@ ul li.checked::before {
     background-image: url(images/checked.png);
 }
 
+form {
+    width: 100%;
+    display: flex;
+}
+
+
+
