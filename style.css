@@ -86,6 +86,10 @@ ul li {
     position: relative;
 }
 
+ul li:hover {
+    color: #838181;
+}
+
 ul li::before {
     content: '';
     position: absolute;
@@ -95,8 +99,8 @@ ul li::before {
     background-image: url(images/unchecked.png);
     background-size: cover;
     background-position: center;
-    top: 12px;
-    left: 8px;
+    top: 8px;
+    left: 15px;
 }
 
 ul li.checked {
